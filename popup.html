@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdVanish</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f5f5f5;
+	    min-width: 400px;
+}
+
+
+    h1 {
+      color: #424242;
+      margin-bottom: 1px;
+      font-size: 40px;
+    }
+
+    button {
+      background-color: #03a9f4;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 24px;
+      margin: 6px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0288d1;
+    }
+
+    #toggleButton {
+      background-color: #e53935;
+    }
+
+    #toggleButton:hover {
+      background-color: #c62828;
+    }
+	
+	  * {
+      box-sizing: border-box;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>AdVanish</h1>
+  <p style="font-size: 140%;" id="description">Simple, yet effective ad blocker</p>
+  <button id="toggleButton">Enable adblocking</button>
+  <button id="settingsButton">Settings</button>
+  <script src="popup.js"></script>
+</body>
+</html>

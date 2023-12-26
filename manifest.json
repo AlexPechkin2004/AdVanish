@@ -1,0 +1,242 @@
+{
+    "name": "AdVanish",
+    "version": "0.0.1",
+    "description": "Simple, yet effective ad blocker",
+    "default_locale": "en",
+    "permissions": ["tabs","declarativeNetRequest", "storage","declarativeNetRequestFeedback"],
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "default",
+          "enabled": true,
+          "path": "/rules/default.json"
+        },
+        {
+          "id": "alb-0",
+          "enabled": false,
+          "path": "/rules/alb-0.json"
+        },
+        {
+          "id": "bgr-0",
+          "enabled": false,
+          "path": "/rules/bgr-0.json"
+        },
+        {
+          "id": "chn-0",
+          "enabled": false,
+          "path": "/rules/chn-0.json"
+        },
+        {
+          "id": "cze-0",
+          "enabled": false,
+          "path": "/rules/cze-0.json"
+        },
+        {
+          "id": "deu-0",
+          "enabled": false,
+          "path": "/rules/deu-0.json"
+        },
+        {
+          "id": "fin-0",
+          "enabled": false,
+          "path": "/rules/fin-0.json"
+        },
+        {
+          "id": "fra-0",
+          "enabled": false,
+          "path": "/rules/fra-0.json"
+        },
+        {
+          "id": "grc-0",
+          "enabled": false,
+          "path": "/rules/grc-0.json"
+        },
+        {
+          "id": "hrv-0",
+          "enabled": false,
+          "path": "/rules/hrv-0.json"
+        },
+        {
+          "id": "hun-0",
+          "enabled": false,
+          "path": "/rules/hun-0.json"
+        },
+        {
+          "id": "idn-0",
+          "enabled": false,
+          "path": "/rules/idn-0.json"
+        },
+        {
+          "id": "ind-0",
+          "enabled": false,
+          "path": "/rules/ind-0.json"
+        },
+        {
+          "id": "irn-0",
+          "enabled": false,
+          "path": "/rules/irn-0.json"
+        },
+        {
+          "id": "isl-0",
+          "enabled": false,
+          "path": "/rules/isl-0.json"
+        },
+        {
+          "id": "isr-0",
+          "enabled": false,
+          "path": "/rules/isr-0.json"
+        },
+        {
+          "id": "ita-0",
+          "enabled": false,
+          "path": "/rules/ita-0.json"
+        },
+        {
+          "id": "jpn-1",
+          "enabled": false,
+          "path": "/rules/jpn-1.json"
+        },
+        {
+          "id": "kor-1",
+          "enabled": false,
+          "path": "/rules/kor-1.json"
+        },
+        {
+          "id": "ltu-0",
+          "enabled": false,
+          "path": "/rules/ltu-0.json"
+        },
+        {
+          "id": "lva-0",
+          "enabled": false,
+          "path": "/rules/lva-0.json"
+        },
+        {
+          "id": "mkd-0",
+          "enabled": false,
+          "path": "/rules/mkd-0.json"
+        },
+        {
+          "id": "nld-0",
+          "enabled": false,
+          "path": "/rules/nld-0.json"
+        },
+        {
+          "id": "nor-0",
+          "enabled": false,
+          "path": "/rules/nor-0.json"
+        },
+        {
+          "id": "pol-0",
+          "enabled": false,
+          "path": "/rules/pol-0.json"
+        },
+        {
+          "id": "rou-1",
+          "enabled": false,
+          "path": "/rules/rou-1.json"
+        },
+        {
+          "id": "rus-0",
+          "enabled": false,
+          "path": "/rules/rus-0.json"
+        },
+        {
+          "id": "spa-0",
+          "enabled": false,
+          "path": "/rules/spa-0.json"
+        },
+        {
+          "id": "spa-1",
+          "enabled": false,
+          "path": "/rules/spa-1.json"
+        },
+        {
+          "id": "svn-0",
+          "enabled": false,
+          "path": "/rules/svn-0.json"
+        },
+        {
+          "id": "swe-1",
+          "enabled": false,
+          "path": "/rules/swe-1.json"
+        },
+        {
+          "id": "tha-0",
+          "enabled": false,
+          "path": "/rules/tha-0.json"
+        },
+        {
+          "id": "tur-0",
+          "enabled": false,
+          "path": "/rules/tur-0.json"
+        },
+        {
+          "id": "vie-1",
+          "enabled": false,
+          "path": "/rules/vie-1.json"
+        },
+        {
+          "id": "dpollock-0",
+          "enabled": false,
+          "path": "/rules/dpollock-0.json"
+        },
+        {
+          "id": "annoyances-cookies",
+          "enabled": false,
+          "path": "/rules/annoyances-cookies.json"
+        },
+        {
+          "id": "annoyances-overlays",
+          "enabled": false,
+          "path": "/rules/annoyances-overlays.json"
+        },
+        {
+          "id": "annoyances-social",
+          "enabled": false,
+          "path": "/rules/annoyances-social.json"
+        },
+        {
+          "id": "annoyances-widgets",
+          "enabled": false,
+          "path": "/rules/annoyances-widgets.json"
+        },
+        {
+          "id": "annoyances-others",
+          "enabled": false,
+          "path": "/rules/annoyances-others.json"
+        },
+        {
+          "id": "stevenblack-hosts",
+          "enabled": false,
+          "path": "/rules/stevenblack-hosts.json"
+        },
+        {
+          "id": "stevenblack-porn-hosts",
+          "enabled": false,
+          "path": "/rules/stevenblack-porn-hosts.json"
+        }
+      ]
+    },
+    "icons": { "16": "./icons/icon16.png", "48": "./icons/icon48.png", "128": "./icons/icon128.png" },
+    "content_scripts": [
+      { 
+        "js": ["yt_blocks.js"],
+        "run_at": "document_end",
+        "matches": ["https://*/*","http://*/*"]
+      }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "AdVanish"
+    },
+    "options_page": "options.html",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ],
+    "manifest_version": 3
+}
