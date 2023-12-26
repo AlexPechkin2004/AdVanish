@@ -1,0 +1,46 @@
+{
+  "enableAdBlockingPopup": {
+    "message": "Увімкнути блокування",
+    "description": "Button text Enable Ad Blocking in Popup"
+  },
+  "disableAdBlockingPopup": {
+    "message": "Вимкнути блокування",
+    "description": "Button text Disable Ad Blocking in Popup"
+  },
+  "settingsButtonTextPopup": {
+    "message": "Налаштування",
+    "description": "Settings Button in Popup"
+  },
+  "shortDescriptionPopup": {
+    "message": "Просте та ефективне блокування реклами",
+    "description": "Short description text in Popup"
+  },
+  "settingsTitle": {
+    "message": "Налаштування AdVanish",
+    "description": "Settings label"
+  },
+  "recommendedFilterListsText": {
+    "message": "Списки фільтрації:",
+    "description": "Filter Lists label in Settings"
+  },
+  "defaultFilterText": {
+    "message": "(1/1) Реклама, трекери, майнери і т.д.",
+    "description": "Default Filter List Name text"
+  },
+  "annoyancesFiltersText": {
+    "message": "Подразники:",
+    "description": "Annoyances Filter Lists text"
+  },
+  "miscellaneousFiltersText": {
+    "message": "Різне:",
+    "description": "Miscellaneous Filter Lists text"
+  },
+  "languagesFiltersText": {
+    "message": "Регіональні:",
+    "description": "Regional Filter Lists text"
+  },
+  "defaultFilterLabel": {
+    "message": "За замовчуванням:",
+    "description": "Default Filter List text"
+  }
+}
