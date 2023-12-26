@@ -1,0 +1,47 @@
+{
+  "enableAdBlockingPopup": {
+    "message": "Enable Ad Blocking",
+    "description": "Button text Enable Ad Blocking in Popup"
+  },
+  "disableAdBlockingPopup": {
+    "message": "Disable Ad Blocking",
+    "description": "Button text Disable Ad Blocking in Popup"
+  },
+  "settingsButtonTextPopup": {
+    "message": "Settings",
+    "description": "Settings Button in Popup"
+  },
+  "shortDescriptionPopup": {
+    "message": "Simple, yet effective ad blocker",
+    "description": "Short description text in Popup"
+  },
+  "settingsTitle": {
+    "message": "AdVanish Settings",
+    "description": "Settings label"
+  },
+  "recommendedFilterListsText": {
+    "message": "Filter Lists:",
+    "description": "Filter Lists label in Settings"
+  },
+  "defaultFilterText": {
+    "message": "(1/1) Ads, trackers, miners, and more",
+    "description": "Default Filter List Name text"
+  },
+  "annoyancesFiltersText": {
+    "message": "Annoyances:",
+    "description": "Annoyances Filter Lists text"
+  },
+  "miscellaneousFiltersText": {
+    "message": "Miscellaneous:",
+    "description": "Miscellaneous Filter Lists text"
+  },
+  "languagesFiltersText": {
+    "message": "Regions, languages:",
+    "description": "Regional Filter Lists text"
+  },
+  "defaultFilterLabel": {
+    "message": "Default:",
+    "description": "Default Filter List text"
+  }
+}
+
